@@ -1,0 +1,6 @@
+import javax.swing.JOptionPane;
+public class NomeEndereço {
+  public static void main (String [] args){
+    String nome = JOptionPane.showInputDialog("Qual o seu nome, diva?");
+    String cidade = JOptionPane.showInputDialog("Qual é a cidade que você nasceu?");
+    JOptionPane.showMessageDialog(null, "Olá " + nome + "! Que legal saber que você é da cidade " + cidade);
